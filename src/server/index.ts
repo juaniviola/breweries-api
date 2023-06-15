@@ -7,5 +7,5 @@ const PORT = config.app.port;
 // connect to db and start server
 (async () => {
   await sequelize.sync();
-  app.listen(PORT, () => console.log(`[server] 🚀 started on port: ${PORT}`));
+  app.listen(PORT, () => console.log(`[server] 🚀 started on Port: ${PORT}`));
 })();
